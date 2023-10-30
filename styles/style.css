@@ -8,6 +8,7 @@
 
 .header__menu {
   justify-self: start;
+  font-size: 18px;
 }
 
 .header__links-list {
@@ -53,7 +54,7 @@
   position: relative;
   background-image: url(../images/cover.jpg);
   width: 1440px;
-  height: 757px;
+  min-height: 757px;
   z-index: 0;
   background-size: cover;
   background-position: center;
@@ -119,7 +120,7 @@
 }
 
 .bet-button {
-  font-family: "Raleway";
+  font-family: 'Arial', sans-serif;
   font-size: 22px;
   color: #fff;
   z-index: 2;
@@ -128,6 +129,16 @@
   border: 1px solid #fff;
   padding: 12px 32px;
   margin-right: 50px;
+}
+
+.bet-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.bet-button:active {
+  color: #fff;
+  background-color: #000;
 }
 
 .lots {
@@ -253,6 +264,7 @@
 .footer__menu {
   text-align: center;
   text-underline-position: under;
+  font-size: 18px;
 }
 
 .footer__menu-list {
