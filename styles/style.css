@@ -1,3 +1,7 @@
+.container {
+  margin: 0 auto;
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,6 +46,7 @@
   white-space: nowrap;
   text-underline-position: under;
   line-height: 1.35;
+  font-size: 18px;
 }
 
 .header__address {
