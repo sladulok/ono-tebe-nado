@@ -223,6 +223,7 @@
   gap: 25px;
   width: 1340px;
   height: 487px;
+  margin-bottom: 180px;
 }
 
 .about__logo {
@@ -261,9 +262,10 @@
 
 .footer {
   display: flex;
-  padding: 180px 50px 90px;
+  margin: 0px 50px 90px;
   justify-content: space-between;
-  width: 1440px;
+  width: 1341px;
+  height: 97px;
 }
 
 .footer__menu {
