@@ -1,5 +1,7 @@
 .container {
   margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .header {
@@ -30,6 +32,10 @@
 .header__links-list-item_no-bullit {
   text-decoration: none;
   list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -125,7 +131,7 @@
 }
 
 .bet-button {
-  font-family: "Arial", "Raleway", sans-serif;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 22px;
   color: #fff;
   z-index: 2;
@@ -282,6 +288,10 @@
   display: flex;
   column-gap: 48px;
   list-style-type: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-icon {
